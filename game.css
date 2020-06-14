@@ -1,0 +1,69 @@
+body{
+  background-color: rgba(81, 185, 180, 0);
+  border: 15px solid green;
+  padding: 60px;
+  margin: 20px;
+}
+
+section#main {
+    display: inline-block;
+    margin: 1 auto;
+    text-align: center;
+    width: 100%;
+    
+  }
+  article#commands {
+    display: inline-block;
+    min-height: 350px;
+    vertical-align: top;
+    width: 25%;
+
+
+  }
+  article#board{
+      display: inline-block;
+      margin: 0 auto;
+      text-align: center;
+      width: 60%;
+
+  }
+  article#board input{
+      font-size: 3em;
+      height: 90px;
+      margin: 10px;
+      width: 90px;
+  }
+  input[type="button"]#start{
+    font-size: 0.9m;
+    margin-top: 3em;
+    padding: .7em;
+  }
+  input[type="text"]
+  {
+   font-size: 1em;
+   margin: .3em;
+   padding: .1em; 
+
+  }
+  label{
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+  .startbutton{
+    color: black;
+    background-color: black;
+
+
+  }
+  .player1button{
+    color: white;
+    background-color: rgba(180, 54, 16, 0.856);
+
+  }
+  .player2button{
+    color: white;
+    background-color:  rgb(7, 63, 116);
+
+
+  }
